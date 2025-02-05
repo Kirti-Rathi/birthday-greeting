@@ -1,4 +1,3 @@
-"use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { Send } from "lucide-react";
@@ -49,11 +48,13 @@ const Homepage = () => {
           transition={{ duration: 0.8, delay: 0.5 }}
           className="flex flex-col"
         >
-          <span className="text-[#FFB974] text-[2rem] font-bold">HAPPY</span>
-          <span className="text-white text-[4.5rem] leading-[1] font-bold -mt-2">
+          <span className="text-[#FFB974] text-[2.5rem] font-bold pr-40">
+            HAPPY
+          </span>
+          <span className="text-white text-[5rem] leading-[1] font-bold -mt-2">
             poipoi&apos;s
           </span>
-          <span className="text-[#FFB974] text-[5rem] leading-[1] font-bold self-end -mt-4">
+          <span className="text-[#FFB974] text-[5.5rem] leading-[1] font-bold self-end -mt-4">
             day
           </span>
         </motion.div>

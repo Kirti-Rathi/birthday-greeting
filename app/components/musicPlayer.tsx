@@ -1,16 +1,31 @@
-"use client";
-
 import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Pause, Play, SkipBack, SkipForward, Volume2 } from "lucide-react";
 import { Slider } from "@/components/ui/slider";
 
 const covers = [
-  "/images/1.jpg",
-  "/images/2.jpg",
-  "/images/3.jpg",
-  "/images/4.jpg",
-  "/images/5.jpg",
+  "/images/covers/1.png",
+  "/images/covers/2.png",
+  "/images/covers/3.png",
+  "/images/covers/4.png",
+  "/images/covers/5.png",
+  "/images/covers/6.png",
+  "/images/covers/7.png",
+  "/images/covers/8.png",
+  "/images/covers/9.png",
+  "/images/covers/10.png",
+  "/images/covers/11.png",
+  "/images/covers/12.png",
+  "/images/covers/13.png",
+  "/images/covers/14.png",
+  "/images/covers/15.png",
+  "/images/covers/16.png",
+  "/images/covers/17.png",
+  "/images/covers/18.png",
+  "/images/covers/19.png",
+  "/images/covers/20.png",
+  "/images/covers/21.png",
+  "/images/covers/22.png",
 ];
 
 const MusicPlayer = () => {
@@ -153,7 +168,7 @@ const MusicPlayer = () => {
         {/* Volume control */}
         <div className="flex items-center gap-2">
           <Volume2 className="w-4 h-4 text-gray-600" />
-          <span className="text-sm mb-1 text-gray-600">From my heart</span>
+          <span className="text-sm text-gray-600">From my heart</span>
         </div>
       </motion.div>
       <audio ref={audioRef} src="/music/Blue-Yung-Kai.mp3" />
