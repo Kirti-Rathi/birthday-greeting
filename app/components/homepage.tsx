@@ -64,7 +64,7 @@ const Homepage = () => {
           initial={{ scaleX: 0 }}
           animate={{ scaleX: 1 }}
           transition={{ duration: 0.8, delay: 1 }}
-          className="w-[180px] h-[60px] bg-white/80 rounded-lg mx-auto my-16 flex justify-center items-center"
+          className="w-[140px] h-[60px] bg-white/80 rounded-lg mx-auto my-16 flex justify-center items-center"
           onClick={() =>
             window.scrollTo({
               top: window.innerHeight,
@@ -72,7 +72,7 @@ const Homepage = () => {
             })
           }
         >
-          <span className="text-[#5F93B3] text-xl mr-2 ">Scroll Down</span>
+          <span className="text-[#5F93B3] text-xl mr-2">Dive In</span>
           <Send
             className="text-[#5F93B3] text-lg mb-2"
             style={{ transform: "rotate(135deg)" }}
