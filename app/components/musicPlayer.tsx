@@ -171,7 +171,7 @@ const MusicPlayer = () => {
           <span className="text-sm text-gray-600">From my heart</span>
         </div>
       </motion.div>
-      <audio ref={audioRef} src="/music/Blue-Yung-Kai.mp3" />
+      <audio ref={audioRef} src="/music/Blue-Yung-Kai.mp3" loop />
     </div>
   );
 };
